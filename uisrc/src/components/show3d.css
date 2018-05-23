@@ -1,0 +1,100 @@
+.show3dPage{
+    background: #1f2428;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.show3dPage{
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -moz-box-direction:normal;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+}
+.show3dPage .title{
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1dc067;
+}
+.show3dPage .title img{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+
+}
+.show3dPage .title a:before{
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+    border: 4px solid #46abfc;
+    border-right: none;
+    border-bottom: none;
+    transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);    /* Firefox */
+    -webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+}
+.show3dPage .search{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-bottom: 1px solid #CCC
+}
+.show3dPage .search input{
+    text-align: center;
+    flex-grow: 1;
+    margin:10px;
+    border:1px solid #CCC;
+    line-height: 30px;
+}
+.show3dPage img{
+    width: 100%;
+}
+.three{
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -moz-box-direction:normal;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+}
+#glFullscreen{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+}
+#glFullscreen #example{
+    flex-grow: 1;
+    height: auto;
+}
+

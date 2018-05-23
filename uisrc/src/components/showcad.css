@@ -1,0 +1,184 @@
+.showcadPage{
+    background: #FFF;
+    min-width: 200px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.showcadPage .title{
+    text-align: center;
+    line-height: 40px;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+.showcadPage img{
+    max-width: 100%;
+}
+
+.showcadbig{
+	position: fixed;
+	border-radius: 3px;
+	top: 20px;
+	right: 20px;
+	left: 20px;
+	bottom: 20px;
+	overflow: hidden;
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	-moz-box-direction:normal;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+    z-index: 10000;
+}
+.showcadbig .showcad >div{
+	width: 100%;
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	-webkit-box-align: center;
+	align-items: center;
+	-webkit-align-items: center;
+}
+.showcadbig .title{
+	border-top: none;
+	position: relative;
+}
+.showcadbig .showcad{
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	flex-grow: 1;
+   	overflow: hidden;
+   	background: #1f2428;
+}
+.showcadbig .showcad>div .swiper-container.swiper-container-horizontal{
+	background: #1f2428;
+}
+.showcadPage{
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-align-items: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-moz-box-direction:normal;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+}
+.showcadPage .showcad{
+	flex-grow: 1;
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	flex-grow: 1;
+   	overflow: hidden;
+   	align-items: center;
+	-webkit-align-items: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	position: relative;
+}
+.showcadPage .showcad img.showbig,
+.showcadPage .showcad img.hideshowbig{
+	position: absolute;
+	z-index: 10000;
+	right: 5px;
+	top: 5px;
+	width: 88px;
+}
+.showcadPage .title{
+	width: 100%;
+}
+.showcadPage .title a.showbig,
+.showcadbig .title a.hideshowbig{
+	position: absolute;
+	right: 0;
+	height: 41px;
+	width: 41px;
+	top: 1px;
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-align-items: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	background: #DDD;
+	z-index: 100;
+	display: block;
+}
+.showcadbig .title a.hideshowbig{
+	height: 40px;
+	width: 40px;
+	top: 0px;
+}
+.showcadbig .title a.hideshowbig:before{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 18px;
+	background: #000;
+	position: absolute;
+	top: 18px;
+	left: 10px;
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg); 	/* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+}
+.showcadbig .title a.hideshowbig:after{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 18px;
+	background: #000;
+	position: absolute;
+	top: 18px;
+	left: 10px;
+	transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg); 	/* Firefox */
+	-webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+}
+.showcadPage .title a.showbig:before{
+	content: "";
+	display: block;
+	height: 12px;
+	width: 18px;
+	border: 2px solid #000;
+	position: absolute;
+	top: 12px;
+	left: 13px;
+}
+#example,#glFullscreen{
+	-webkit-transform: translateZ(0);
+   	-moz-transform: translateZ(0);
+   	-ms-transform: translateZ(0);
+   	-o-transform: translateZ(0);
+   	transform: translateZ(0);
+}
+.Demo-swiper__slide{
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-align-items: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.showcadPage .Demo-swiper__slide img{
+	max-width: 100%;
+}
+

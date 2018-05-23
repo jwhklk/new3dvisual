@@ -1,0 +1,184 @@
+.bomPage{
+    /* min-width: 300px; */
+}
+.bomPage{
+    padding: 20px;
+    min-width: 200px;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -moz-box-direction:normal;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.bomlistpage{}
+.bomPage >div{
+    overflow: hidden;
+}
+.bomPage >div.bomcontent,
+.setfromPage .leftshowcad{
+    overflow: hidden;
+    position: relative;
+}
+.bomPage >div.bomcontent,
+.setfromPage .leftshowcad >div.showcadPage{
+    border-radius: 3px;
+    margin-bottom: 20px;
+    background: #1f2428;
+}
+.bomPage >div.bomcontent{
+    flex-grow: 1;
+}
+.setfromPage .leftshowcad >div.showcadPage{
+    margin-bottom: 0;
+}
+.bomPage >div.bomcontent>div,
+.setfromPage .leftshowcad>div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow-y: hidden;
+}
+.bomPage >div.bomcontent>div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -moz-box-direction:normal;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+}
+.bomPage .title{
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -moz-justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 54px;
+    flex-shrink: 0;
+}
+.bomPage .title img{
+    width: 186px;
+    margin-left: 15px;
+}
+.bomPage .search{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-bottom: 1px solid #CCC
+}
+.bomPage .search input{
+    text-align: center;
+    flex-grow: 1;
+    margin:10px;
+    border:1px solid #CCC;
+    line-height: 30px;
+}
+.bomlist{
+    padding: 0 5px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+.bomli{
+    padding:  10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.bomli span{
+    width: 20%;
+    flex-shrink: 0;
+    flex-grow: 1;
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+    word-break:break-all;
+    text-align: center;
+    color: #dfe4ea;
+}
+.bomli2 span{
+    width: 16.6%;
+}
+.nodata{
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    color: #666;
+}
+.bomPage .childlist{
+    background: #1f2428;
+    border-radius: 3px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding-bottom: 30px;
+}
+.childlist .listcon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.childlist .listcon .nav{
+    color: #6d7d8c;
+    padding-left: 25px;
+    flex-shrink: 0;
+    line-height: 40px;
+}
+.childlist .listcon .listlist{
+    flex-grow: 1;
+    line-height: 40px;
+    color: #dfe3ec;
+    position: relative;
+    padding-left: 40px;
+}
+.childlist .listcon .listlist:before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    background: #404549;
+    height: 10000px;
+    position: absolute;
+    left: 20px;
+}
+.childlist .listcon .listlist .li {
+    position: relative;
+}
+.childlist .listcon .listlist .fli img{
+    position: absolute;
+    left: -33px;
+    top: 8px;
+
+}
+.childlist .listcon .listlist .cli img{
+    position: absolute;
+    left: -30px;
+    top: 9px;
+}
+.bomli.bomlitit span{
+    color: #75838e;
+}
+

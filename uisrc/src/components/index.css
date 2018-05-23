@@ -1,0 +1,45 @@
+ul, li, *{
+    overflow-scrolling:touch;
+    -webkit-overflow-scrolling:touch;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: "Microsoft YaHei";
+    font-weight: 200;
+    border:none;
+    pointer-events: auto;
+    list-style: none;
+}
+.indexPage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    background: #181b20;
+    
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.indexPage .content{
+    flex-grow: 1;
+    align-self: stretch;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+}
+.indexPage .content >.cad{
+    width: 260px;
+    flex-shrink: 0;
+    border-left: 1px solid #CCC;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -moz-box-direction:normal;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+}

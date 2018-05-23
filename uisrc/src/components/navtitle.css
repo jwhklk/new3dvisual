@@ -1,0 +1,9 @@
+.navtitle{
+    text-indent: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #CCC;
+    background: #FFF;
+}
+.navtitle span{
+	margin: 0 10px;
+}

@@ -1,0 +1,46 @@
+.devicelistPage{
+    background: #FFF;
+    flex-shrink: 0;
+    flex-grow: 1;
+    border-right: 1px solid #CCC;
+    overflow: hidden;
+    width: 200px;
+}
+.devicelistPage .content ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+}
+.devicelistPage .content ul li{
+    position: relative;
+    width: 20%;
+}
+.devicelistPage .content ul li>div{
+    margin: 10px;
+}
+.devicelistPage .content ul li>div p{
+    text-align: center;display: block;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.devicelistPage .content ul li img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.ant-pagination{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+

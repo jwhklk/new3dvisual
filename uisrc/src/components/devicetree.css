@@ -1,0 +1,55 @@
+.indexPage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+}
+.devicetreePage{
+    background: #FFF;
+    min-width: 200px;
+    flex-shrink: 0;
+    border-right: 1px solid #CCC;
+}
+.devicetreePage .title{
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #CCC;
+}
+.devicetreePage .search{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-bottom: 1px solid #CCC
+}
+.devicetreePage .search input{
+    text-align: center;
+    flex-grow: 1;
+    margin:10px;
+    border:1px solid #CCC;
+    line-height: 30px;
+}
+.ant-tree.ant-tree-show-line li{
+    position: relative;
+}
+.ant-tree.ant-tree-show-line li .icon{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    height: 22px;
+    width: 22px;
+}
+.ant-tree.ant-tree-show-line li .icon >img{
+    width: 100%;
+}
+.ant-tree.ant-tree-show-line li.showicon span.ant-tree-switcher.ant-tree-switcher_close:after{
+    content: ""
+}
+
+
+
+
