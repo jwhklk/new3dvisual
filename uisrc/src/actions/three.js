@@ -8,3 +8,6 @@ export const set_device = createAction('set_device');
 
 export const set_selectmainform = createAction('set_selectmainform');
 export const set_formdata = createAction('set_formdata');
+export const set_curbom = createAction('set_curbom');
+
+

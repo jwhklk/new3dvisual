@@ -15,8 +15,11 @@ ul, li, *{
     display: -ms-flexbox;
     display: flex;
     display: -webkit-flex;
-    background: #181b20;
-    
+    flex-direction: column;
+    background: url(../img/bg.png);
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 p {
     margin: 0;
@@ -43,3 +46,74 @@ p {
     flex-direction:column;
     -webkit-flex-direction:column;
 }
+.showstylepage{
+
+}
+.showstylepage .title{
+    font-size: 24px;
+    text-align: center;
+}
+.showstylepage .cont{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    padding: 20px 40px;
+}
+.showstylepage .cont >div{
+    flex-grow: 1;
+    background: #EEE;
+}
+.showstylepage .cont >div:first-child{
+    margin-right: 30px;
+}
+.showstylepage .cont >div .tt{
+    line-height: 40px;
+    text-indent: 20px;
+    font-size: 18px;
+    background:  #000;
+    color: #FFF;
+}
+.showstylepage .cont >div.l{
+    background: none;
+    width: 30%;
+    flex-shrink: 0;
+}
+.showstylepage .cont >div.r{
+    border: 1px solid #DDD;
+}
+.showstylepage .cont >div.r.s3d{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+.showstylepage .cont >div.r.s3d .cc.s3d{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+.showstylepage .cont >div.l>div{
+    background: #EEE;
+    border: 1px solid #DDD;
+    background: none;
+    width: 100%;
+    flex-shrink: 0;
+}
+.showstylepage .cont >div.l>div img{
+    width: 100%;
+}
+.showstylepage .cont >div.l div.l1{
+    margin-bottom: 30px;
+}
+
+
+

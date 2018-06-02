@@ -1,7 +1,5 @@
 .show3dPage{
     background: #1f2428;
-    margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 3px;
 }
 .show3dPage{
@@ -14,14 +12,29 @@
     flex-direction:column;
     -webkit-flex-direction:column;
 }
+.show_bom_left .bom .tt,
 .show3dPage .title{
-    text-align: center;
+    text-align: left;
     line-height: 50px;
     position: relative;
     line-height: 50px;
     font-size: 22px;
     font-weight: bold;
     color: #1dc067;
+    background: #EEE;
+    text-indent: 20px;
+}
+.show_bom_left .bom .dd .li{
+    padding: 0 20px;
+    border-top: 1px solid #DDD;
+    line-height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
 }
 .show3dPage .title img{
     position: absolute;
@@ -96,5 +109,9 @@
 #glFullscreen #example{
     flex-grow: 1;
     height: auto;
+}
+
+.showstylepage .cc{
+
 }
 

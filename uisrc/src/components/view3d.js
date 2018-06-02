@@ -50,7 +50,7 @@ class Page extends React.Component {
 						antialias: true,
 						autoClear: true
 					} );
-					this.renderer.setClearColor( 0x1f2428 );
+					this.renderer.setClearColor( 0xEEEEEE );//0x1f2428
 					this.scene = new THREE.Scene();
 					this.camera = new THREE.PerspectiveCamera( this.cameraDefaults.fov, this.aspectRatio, this.cameraDefaults.near, this.cameraDefaults.far );
 
@@ -65,9 +65,9 @@ class Page extends React.Component {
 		   //          this.controls.lookSpeed = 0.1;
 		   //          this.controls.lookVertical = true;
 
-					var ambientLight = new THREE.AmbientLight( 0xFFFFFF );
-					var directionalLight1 = new THREE.DirectionalLight( 0xC0C090 );
-					var directionalLight2 = new THREE.DirectionalLight( 0xC0C090 );
+					var ambientLight = new THREE.AmbientLight( 0xFFFFFF ); //0xFFFFFF
+					var directionalLight1 = new THREE.DirectionalLight( 0xC0C090 );//0xC0C090
+					var directionalLight2 = new THREE.DirectionalLight( 0xC0C090 );//0xC0C090
 					directionalLight1.position.set( -100, -50, 100 );
 					directionalLight2.position.set( 100, 50, -100 );
 					this.scene.add( directionalLight1 );
@@ -209,7 +209,7 @@ class Page extends React.Component {
     }
 }
 
-const mapStateToProps = ({data:{showmodel,device}}) => {
-    return { showmodel,device };
+const mapStateToProps = ({data:{showmodel}}) => {
+    return { showmodel };
 }
 export default connect(mapStateToProps)(Page);

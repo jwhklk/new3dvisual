@@ -8,6 +8,8 @@ import { Route,Redirect,Switch} from 'react-router-dom';
 
 import Index from './index.js';
 import Deviceinfo from './deviceinfo';
+import Showstyle1 from './showstyle1';
+import Showstyle2 from './showstyle2';
 import Main from './main';
 import Mainform from './mainform';
 
@@ -21,6 +23,8 @@ class AppRoot extends React.Component {
                     <Route exact path="/" component={()=>(<Redirect to="/main"/>)} />
                     
                     <Route path="/deviceinfo" component={Deviceinfo} />
+                    <Route path="/showstyle/1" component={Showstyle1} />
+                    <Route path="/showstyle/2" component={Showstyle2} />
                     <Route path="/main" component={Main} />
                     <Route path="/mainform" component={Mainform} />
                 </Switch>    

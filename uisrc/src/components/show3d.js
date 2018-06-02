@@ -18,8 +18,7 @@ class Page extends React.Component {
         return (
             <div className="show3dPage">
                 <div className="title">
-                    {titlename}
-                    <img src={Backimg} onClick={this.props.history.goBack} />
+                    {titlename}三维展示
                 </div>
                 <View3d />
             </div>
